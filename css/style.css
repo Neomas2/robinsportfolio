@@ -57,7 +57,7 @@ p {
   padding: 0.4rem;
 }
 .icons a:hover {
-  opacity: 0;
+  color: var(--secondary-color);
   transition: all 0.5s ease-out;
   text-decoration: none;
 }
@@ -125,7 +125,8 @@ p {
   display: block;
 }
 .sidenav a:hover {
-  color: #292a2b;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 .sidenavportfolio a {
   padding: 6px 8px 6px 16px;
@@ -135,7 +136,7 @@ p {
   display: block;
 }
 .sidenavportfolio a:hover {
-  color: #292a2b;
+  color: var(--secondary-color);
 }
 
 .main {
