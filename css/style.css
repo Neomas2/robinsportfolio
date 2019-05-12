@@ -84,8 +84,10 @@ p {
   text-decoration: none;
 }
 #contact-mobile {
+  height: 100vh;
 }
 #portfolio-mobile {
+  height: 100vh;
 }
 
 #callbttn-mobile {
@@ -422,6 +424,12 @@ p {
   position: relative;
 }
 .footer {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 5vh;
+}
+.footer-mobile {
   width: 100%;
   text-align: center;
   color: #ffffff;
