@@ -218,22 +218,9 @@ p {
   border: 5px solid #ffffff;
 }
 
-#cvbttn {
-  position: absolute;
-  margin-top: 60vh;
-  left: 15vw;
-  background: #ffffff;
-  border-radius: 100%;
-  width: 40px;
-  height: 40px;
-  text-decoration: none;
-}
-
-#cvbttn:hover {
-  background: var(--secondary-color);
-}
 #callbttn {
   position: absolute;
+  z-index: 10;
   margin-top: 30vh;
   left: 15vw;
   background: #ffffff;
@@ -247,6 +234,7 @@ p {
   background: var(--secondary-color);
 }
 #mailbttn {
+  z-index: 10;
   position: absolute;
   margin-top: 45vh;
   left: 15vw;
@@ -260,8 +248,23 @@ p {
 #mailbttn:hover {
   background: var(--secondary-color);
 }
-.contacticon {
+#cvbttn {
+  z-index: 10;
   position: absolute;
+  margin-top: 60vh;
+  left: 15vw;
+  background: #ffffff;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+#cvbttn:hover {
+  background: var(--secondary-color);
+}
+.contacticon {
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
