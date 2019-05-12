@@ -43,6 +43,125 @@ p {
   overflow-x: hidden;
   margin-top: 80px;
 }
+
+/*MOBILE*/
+.sidelogo-mobile {
+  margin-left: 80px;
+  margin-top: 80px;
+  z-index: 10;
+  width: 80vw;
+  top: 0;
+}
+
+.mobile-title {
+  margin: 80px 80px 80px 80px;
+  padding-bottom: 5%;
+}
+#home-img-mobile {
+  z-index: -10;
+  width: 80vh;
+  margin-top: 0px;
+  margin-left: -236px;
+  overflow: hidden;
+}
+
+.icons-mobile {
+  position: fixed;
+  top: 95%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  left: 0.4rem;
+}
+.icons-mobile a {
+  color: #ffffff;
+  padding: 0.4rem;
+}
+.icons-mobile a:hover {
+  color: var(--secondary-color);
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+}
+#contact-mobile {
+}
+#portfolio-mobile {
+}
+
+#callbttn-mobile {
+  position: absolute;
+  z-index: 10;
+  margin-top: 30vh;
+  left: 15vw;
+  background: #ffffff;
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  text-decoration: none;
+}
+
+#callbttn-mobile:hover {
+  background: var(--secondary-color);
+}
+#mailbttn-mobile {
+  z-index: 10;
+  position: absolute;
+  margin-top: 45vh;
+  left: 15vw;
+  background: #ffffff;
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  text-decoration: none;
+}
+
+#mailbttn-mobile:hover {
+  background: var(--secondary-color);
+}
+#cvbttn-mobile {
+  z-index: 10;
+  position: absolute;
+  margin-top: 60vh;
+  left: 15vw;
+  background: #ffffff;
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  text-decoration: none;
+}
+
+#cvbttn-mobile:hover {
+  background: var(--secondary-color);
+}
+.contacticon-mobile {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #292a2b;
+}
+.contacticon-mobile:hover {
+  text-decoration: none;
+}
+
+.contacttext-mobile {
+  position: relative;
+  left: 35vw;
+  width: 100%;
+  font-size: 50px;
+}
+.contacttext-mobile:hover {
+  text-decoration: none;
+}
+#greetings-mobile {
+  margin-top: 75vh;
+  width: 50vw;
+  left: 15vw;
+  position: relative;
+  padding-bottom: 20rem;
+}
+/*MOBILE*/
+
 .icons {
   position: fixed;
   top: 95%;
@@ -144,6 +263,7 @@ p {
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
+
 #home {
   height: 100vh;
 }
@@ -152,12 +272,14 @@ p {
   margin-left: -236px;
   overflow: hidden;
 }
+
 #portfolio {
   height: 100vh;
 }
 #aboutme {
   height: 100vh;
 }
+
 #contact {
   height: 110vh;
 }
