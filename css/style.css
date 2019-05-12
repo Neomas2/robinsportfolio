@@ -130,6 +130,8 @@ p {
   width: 10rem;
   height: 10rem;
   text-decoration: none;
+
+  margin-bottom: 20rem;
 }
 
 #cvbttn-mobile:hover {
